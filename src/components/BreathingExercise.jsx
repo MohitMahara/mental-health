@@ -87,9 +87,7 @@ const BreathingExercise = () => {
         <div className="relative w-64 h-64 flex items-center justify-center mb-6">
           <motion.div
             className={`w-32 h-32 rounded-full ${phaseConfig[currentPhase].color} shadow-2xl shadow-emerald-500/30`}
-            animate={{ 
-              scale: circleScale[currentPhase],
-            }}
+            animate={isActive ? {  scale: circleScale[currentPhase]} : {scale:1}}
             transition={{ 
               duration: phaseConfig[currentPhase].duration,
               ease: currentPhase === 'inhale' || currentPhase === 'exhale' ? 'easeInOut' : 'linear'
