@@ -8,28 +8,28 @@ const meditationPlaylist = [
     title: "Morning Mindfulness",
     type: "audio",
     duration: "2:58",
-    src: "/meditation1.mp3",
+    src: "https://res.cloudinary.com/diwodg2yv/video/upload/v1756541350/inhale-exhale-ambient-peaceful-meditation-365001_tawmlu.mp3",
   },
   {
     id: 2,
     title: "Deep Relaxation",
     type: "audio",
     duration: "5:47",
-    src: "/meditation2.mp3",
+    src: "https://res.cloudinary.com/diwodg2yv/video/upload/v1756541386/meditation-music-368634_dcleuk.mp3",
   },
   {
     id: 3,
     title: "Anxiety Relief",
     type: "audio",
     duration: "2:58",
-    src: "/meditation1.mp3",
+    src: "https://res.cloudinary.com/diwodg2yv/video/upload/v1756541350/inhale-exhale-ambient-peaceful-meditation-365001_tawmlu.mp3",
   },
   {
     id: 4,
     title: "Morning Yoga",
     type: "video",
     duration: "0:23",
-    src: "/meditation3.mp4",
+    src: "https://res.cloudinary.com/diwodg2yv/video/upload/v1756541213/meditation3_t9huin.mp4",
   },
 ];
 
