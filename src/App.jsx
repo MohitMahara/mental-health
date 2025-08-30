@@ -1,5 +1,5 @@
 import React from 'react';
-import MeditationAndExercise from './components/mainsection';
+import MeditationAndExercise from './components/MeditationAndExercise';
 
 function App() {
   return (
